@@ -64,3 +64,51 @@ body{
   right: 0;
   z-index: 1;
 }
+
+/*Styling the images page*/
+.view{
+  margin-top: 2%;
+}
+
+#nav{
+  background-color: #0B0A0A;
+}
+.nav-link{
+  color: red !important;
+}
+
+body{
+  background-color: black;
+}
+.name{
+  font-size: 50px;
+  color:red;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.selected {
+  background-color: #2E2E2E;
+}
+
+.kenyan, .nigerian, .school, .football, .anime, .others, .stoners, .motivational, .childhood, .politics, .login-block, .signup-block {
+  display: none;
+}
+
+h1, .login-block h2, small{
+  color: white;
+}
