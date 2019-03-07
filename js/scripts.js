@@ -24,3 +24,39 @@ $(document).ready(function(){
     $(".col-md-10").fadeOut();
     $(".nigerian").fadeIn();
   });
+  $(".five").click(function(){
+    $(".nav-link").removeClass("selected");
+    $(".five").addClass("selected");
+    $(".col-md-10").fadeOut();
+    $(".anime").fadeIn();
+  });
+  $(".six").click(function(){
+    $(".nav-link").removeClass("selected");
+    $(".six").addClass("selected");
+    $(".col-md-10").fadeOut();
+    $(".school").fadeIn();
+  });
+  $(".seven").click(function(){
+    $(".nav-link").removeClass("selected");
+    $(".seven").addClass("selected");
+    $(".col-md-10").fadeOut();
+    $(".politics").fadeIn();
+  });
+  $(".eight").click(function(){
+    $(".nav-link").removeClass("selected");
+    $(".eight").addClass("selected");
+    $(".col-md-10").fadeOut();
+    $(".stoners").fadeIn();
+  });
+  $(".nine").click(function(){
+    $(".nav-link").removeClass("selected");
+    $(".nine").addClass("selected");
+    $(".col-md-10").fadeOut();
+    $(".motivational").fadeIn();
+  });
+  $(".ten").click(function(){
+    $(".nav-link").removeClass("selected");
+    $(".ten").addClass("selected");
+    $(".col-md-10").fadeOut();
+    $(".others").fadeIn();
+  });
