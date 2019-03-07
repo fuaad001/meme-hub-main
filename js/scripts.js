@@ -69,3 +69,4 @@ $(document).ready(function(){
     $(".signup-block").show();
   })
 });
+var elements = $(".column");
