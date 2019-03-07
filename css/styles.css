@@ -1,0 +1,66 @@
+/*Styling the Home page*/
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.5);
+  font-family: 'Overpass', sans-serif;
+}
+
+#nav{
+  background-color: #0B0A0A;
+}
+.nav-link{
+  color: red !important;
+}
+#home:hover, #images:hover, #video:hover, #users:hover, #about:hover{
+  background-color: #2E2E2E;
+}
+body{
+  background-color: black;
+}
+#latest{
+  margin-bottom: 17%;
+}
+#latest h1{
+  color: white;
+}
+#latest p{
+  color: white;
+  margin-top: 10%;
+}
+#car1, #car2, #car3{
+  width:640px;
+  height:600px;
+}
+.name{
+  font-size: 50px;
+  color:red;
+  font-weight: 1000;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.skip a{
+  color: red;
+  text-decoration: none;
+}
+
+.login-block, .signup-block{
+  position: fixed;
+  top: 12%;
+  right: 0;
+  z-index: 1;
+}
