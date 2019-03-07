@@ -1,0 +1,13 @@
+$(document).ready(function(){
+  $(".one").click(function(){
+    $(".nav-link").removeClass("selected");
+    $(".one").addClass("selected");
+    $(".col-md-10").fadeOut();
+    $(".kenyan").fadeIn();
+  });
+  $(".two").click(function(){
+    $(".nav-link").removeClass("selected");
+    $(".two").addClass("selected");
+    $(".col-md-10").fadeOut();
+    $(".football").fadeIn();
+  });
