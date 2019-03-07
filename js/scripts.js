@@ -69,6 +69,7 @@ $(document).ready(function(){
     $(".signup-block").show();
   })
 });
+
 var elements = $(".column");
 var i;
 function one() {
@@ -98,6 +99,7 @@ function four() {
     elements[i].style.flex = "25%";
   }
 }
+
 function same() {
   for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "25%";
@@ -107,6 +109,7 @@ function same() {
     });
   }
 }
+
 // Add active class to the current button (highlight it)
 var header = document.getElementById("myHeader");
 var btns = header.getElementsByClassName("btn");
@@ -117,4 +120,5 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
 //Business logic
