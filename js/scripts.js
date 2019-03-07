@@ -60,3 +60,12 @@ $(document).ready(function(){
     $(".col-md-10").fadeOut();
     $(".others").fadeIn();
   });
+  $(".login").click(function(){
+    $(".login-block").toggle();
+    $(".trends").toggle();
+  })
+  $(".sign").click(function(){
+    $(".login-block").hide();
+    $(".signup-block").show();
+  })
+});
