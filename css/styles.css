@@ -112,3 +112,71 @@ body{
 h1, .login-block h2, small{
   color: white;
 }
+
+/* Styles the image grid */
+.equal{
+  height: 15%;
+}
+
+.grid {
+  box-sizing: border-box;
+}
+
+.grid {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h3{
+  color: white;
+  text-align: center;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 50%;
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.btn {
+  color: red;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #0B0A0A;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #2E2E2E;
+  color: red;
+}
+
+.btn.active {
+  background-color: red;
+  color: white;
+}
+
+.btn-login, .btn-signup, .btn-confirm, .btn-cancel{
+  margin-left: 5px;
+  background-color: red;
+  color: white;
+}
