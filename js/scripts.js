@@ -11,3 +11,9 @@ $(document).ready(function(){
     $(".col-md-10").fadeOut();
     $(".football").fadeIn();
   });
+  $(".three").click(function(){
+     $(".nav-link").removeClass("selected");
+     $(".three").addClass("selected");
+     $(".col-md-10").fadeOut();
+     $(".childhood").fadeIn();
+   });
