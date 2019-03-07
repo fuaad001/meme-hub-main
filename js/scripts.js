@@ -3,55 +3,55 @@ $(document).ready(function(){
   $(".one").click(function(){
     $(".nav-link").removeClass("selected");
     $(".one").addClass("selected");
-    $(".col-md-10").fadeOut();
+    $(".screen").fadeOut();
     $(".kenyan").fadeIn();
   });
   $(".two").click(function(){
     $(".nav-link").removeClass("selected");
     $(".two").addClass("selected");
-    $(".col-md-10").fadeOut();
+    $(".screen").fadeOut();
     $(".football").fadeIn();
   });
   $(".three").click(function(){
     $(".nav-link").removeClass("selected");
     $(".three").addClass("selected");
-    $(".col-md-10").fadeOut();
+    $(".screen").fadeOut();
     $(".childhood").fadeIn();
   });
   $(".four").click(function(){
     $(".nav-link").removeClass("selected");
     $(".four").addClass("selected");
-    $(".col-md-10").fadeOut();
+    $(".screen").fadeOut();
     $(".nigerian").fadeIn();
   });
   $(".five").click(function(){
     $(".nav-link").removeClass("selected");
     $(".five").addClass("selected");
-    $(".col-md-10").fadeOut();
+    $(".screen").fadeOut();
     $(".anime").fadeIn();
   });
   $(".six").click(function(){
     $(".nav-link").removeClass("selected");
     $(".six").addClass("selected");
-    $(".col-md-10").fadeOut();
+    $(".screen").fadeOut();
     $(".school").fadeIn();
   });
   $(".seven").click(function(){
     $(".nav-link").removeClass("selected");
     $(".seven").addClass("selected");
-    $(".col-md-10").fadeOut();
+    $(".screen").fadeOut();
     $(".politics").fadeIn();
   });
   $(".eight").click(function(){
     $(".nav-link").removeClass("selected");
     $(".eight").addClass("selected");
-    $(".col-md-10").fadeOut();
+    $(".screen").fadeOut();
     $(".stoners").fadeIn();
   });
   $(".nine").click(function(){
     $(".nav-link").removeClass("selected");
     $(".nine").addClass("selected");
-    $(".col-md-10").fadeOut();
+    $(".screen").fadeOut();
     $(".motivational").fadeIn();
   });
   $(".ten").click(function(){

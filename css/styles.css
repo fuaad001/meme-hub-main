@@ -105,7 +105,7 @@ body{
   background-color: #2E2E2E;
 }
 
-.kenyan, .nigerian, .school, .football, .anime, .others, .stoners, .motivational, .childhood, .politics, .login-block, .signup-block {
+.kenyan, .nigerian, .school, .football, .anime, .others, .stoners, .motivational, .childhood, .politics, .university, .login-block, .signup-block {
   display: none;
 }
 
@@ -290,7 +290,7 @@ color:#ECF0F1;
   background-color: #2E2E2E;
 }
 .equal{
-  height: 20%;
+  height: 12%;
 }
 .grid {
   margin: 0;
