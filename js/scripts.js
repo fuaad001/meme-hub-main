@@ -29,3 +29,15 @@ $(document).ready(function(){
        $(".col-md-10").fadeOut();
        $(".anime").fadeIn();
      });
+     $(".six").click(function(){
+        $(".nav-link").removeClass("selected");
+        $(".six").addClass("selected");
+        $(".col-md-10").fadeOut();
+        $(".school").fadeIn();
+      });
+      $(".seven").click(function(){
+        $(".nav-link").removeClass("selected");
+        $(".seven").addClass("selected");
+        $(".col-md-10").fadeOut();
+        $(".politics").fadeIn();
+      });
