@@ -261,3 +261,92 @@ color:#ECF0F1;
   padding: 1%;
   font-size: large;
 }
+
+/* Styles the image grid */
+@media only screen and (min-width: 760px) {
+  .dropdown{
+  display: none;
+  }
+  #myHeader{
+    margin-top: 3%;
+  }
+}
+@media only screen and (max-width: 760px) {
+  #cat{
+    display: none;
+    }
+  #myHeader{
+    margin-top: auto;
+  }
+}
+
+.dropdown-menu{
+  background-color: black;
+}
+.dropdown-item{
+  color: red;
+}
+.dropdown-item:hover{
+  background-color: #2E2E2E;
+}
+.equal{
+  height: 20%;
+}
+.grid {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h3{
+  color: white;
+  text-align: center;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 50%;
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.btn {
+  color: red;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #0B0A0A;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #2E2E2E;
+  color: red;
+}
+
+.btn.active {
+  background-color: red;
+  color: white;
+}
+
+.btn-login, .btn-signup, .btn-confirm, .btn-cancel{
+  margin-left: 5px;
+  background-color: red;
+  color: white;
+}
