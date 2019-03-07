@@ -57,7 +57,13 @@ $(document).ready(function(){
   $(".ten").click(function(){
     $(".nav-link").removeClass("selected");
     $(".ten").addClass("selected");
-    $(".col-md-10").fadeOut();
+    $(".screen").fadeOut();
+    $(".university").fadeIn();
+  });
+  $(".eleven").click(function(){
+    $(".nav-link").removeClass("selected");
+    $(".eleven").addClass("selected");
+    $(".screen").fadeOut();
     $(".others").fadeIn();
   });
   $(".login").click(function(){
@@ -70,12 +76,16 @@ $(document).ready(function(){
   })
 });
 
-var elements = $(".column");
+var elements = document.getElementsByClassName("column");
 var i;
+
 function one() {
-  for (i = 0; i < elements.length; i++) {
+    for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "100%";
     elements[i].style.flex = "100%";
+    $(document).ready(function(){
+      $(".height").removeClass("equal");
+    });
   }
 }
 
@@ -83,6 +93,9 @@ function two() {
   for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "50%";
     elements[i].style.flex = "50%";
+    $(document).ready(function(){
+      $(".height").removeClass("equal");
+    });
   }
 }
 
@@ -90,16 +103,23 @@ function three() {
   for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "33%";
     elements[i].style.flex = "33%";
+    $(document).ready(function(){
+      $(".height").removeClass("equal");
+    });
   }
 }
+
+
 
 function four() {
   for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "25%";
     elements[i].style.flex = "25%";
+    $(document).ready(function(){
+      $(".height").removeClass("equal");
+    });
   }
 }
-
 function same() {
   for (i = 0; i < elements.length; i++) {
     elements[i].style.msFlex = "25%";
@@ -110,7 +130,6 @@ function same() {
   }
 }
 
-// Add active class to the current button (highlight it)
 var header = document.getElementById("myHeader");
 var btns = header.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
@@ -120,5 +139,3 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
-
-//Business logic
