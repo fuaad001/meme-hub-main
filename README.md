@@ -12,7 +12,7 @@ The application is meant to entertain people using funny images and videos.It ta
 ## BDD
 | Behavior- Our program should handle: | Input Example- When it receives: | Output Example- It should return: |
 | :-------------: | :-------------: | :-------------: |
-| Item One       | Item Two       | Item Two       |
+|        |        |       |
 ## Setup/Installation Requirements
 * Open your browser browser.
 * Load gitHub on your browser.
