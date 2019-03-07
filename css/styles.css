@@ -1,0 +1,352 @@
+/*Styling the Home page*/
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.5);
+  font-family: 'Overpass', sans-serif;
+}
+
+#nav{
+  background-color: #0B0A0A;
+}
+.nav-link{
+  color: red !important;
+}
+#home:hover, #images:hover, #video:hover, #users:hover, #about:hover{
+  background-color: #2E2E2E;
+}
+body{
+  background-color: black;
+}
+#latest{
+  margin-bottom: 17%;
+}
+#latest h1{
+  color: white;
+}
+#latest p{
+  color: white;
+  margin-top: 10%;
+}
+#car1, #car2, #car3{
+  width:640px;
+  height:600px;
+}
+.name{
+  font-size: 50px;
+  color:red;
+  font-weight: 1000;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.skip a{
+  color: red;
+  text-decoration: none;
+}
+
+.login-block, .signup-block{
+  position: fixed;
+  top: 12%;
+  right: 0;
+  z-index: 1;
+}
+
+/*Styling the images page*/
+.view{
+  margin-top: 2%;
+}
+
+#nav{
+  background-color: #0B0A0A;
+}
+.nav-link{
+  color: red !important;
+}
+
+body{
+  background-color: black;
+}
+.name{
+  font-size: 50px;
+  color:red;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.selected {
+  background-color: #2E2E2E;
+}
+
+.kenyan, .nigerian, .school, .football, .anime, .others, .stoners, .motivational, .childhood, .politics, .login-block, .signup-block {
+  display: none;
+}
+
+h1, .login-block h2, small{
+  color: white;
+}
+
+/* Styles the image grid */
+.equal{
+  height: 15%;
+}
+
+.grid {
+  box-sizing: border-box;
+}
+
+.grid {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h3{
+  color: white;
+  text-align: center;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 50%;
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.btn {
+  color: red;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #0B0A0A;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #2E2E2E;
+  color: red;
+}
+
+.btn.active {
+  background-color: red;
+  color: white;
+}
+
+.btn-login, .btn-signup, .btn-confirm, .btn-cancel{
+  margin-left: 5px;
+  background-color: red;
+  color: white;
+}
+
+* Styling Videos Page */
+#videos{
+  background-color: #0B0A0A;
+  margin-top: 5%;
+}
+.vid{
+  margin: 0.3%;
+  background-color: #0B0A0A;
+  width:100% ;
+}
+
+
+/*users page styling*/
+.users h3, .users h4, .users li{
+  color: white;
+}
+
+.us{
+  font-family: 'Lora', serif;
+  text-shadow: 2px 2px #922B21;
+  text-align: center;
+}
+.about{
+  font-family: 'Lora', serif;
+  text-shadow: 2px 2px #922B21;
+  float:right;
+  margin-bottom: 90%;
+}
+
+p{
+  font-family: 'Acme', sans-serif;
+font-size: 35px;
+text-align: center;
+color:#ECF0F1;
+}
+
+.title{
+  text-align: center;
+}
+
+.logo{
+  margin-right: -4%;
+}
+
+.btn-comment, .btn-joke, .boxer2{
+  color: white;
+  background-color: red;
+  margin-top: 0;
+}
+
+.boxer2{
+  padding: 1%;
+  border-radius: 5px;
+  margin-right: 2%;
+  font-size: large;
+}
+
+.comments input{
+  width: 85.5%;
+}
+
+.jokes input{
+  width: 90%;
+}
+
+.reviews, .contributions, .hashtags, .meme-plugs{
+  margin-top: 2%;
+}
+
+.reviews h3, .contributions h3{
+  text-decoration: underline;
+}
+
+.boxer{
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 1%;
+  font-size: large;
+}
+
+/* Styles the image grid */
+@media only screen and (min-width: 760px) {
+  .dropdown{
+  display: none;
+  }
+  #myHeader{
+    margin-top: 3%;
+  }
+}
+@media only screen and (max-width: 760px) {
+  #cat{
+    display: none;
+    }
+  #myHeader{
+    margin-top: auto;
+  }
+}
+
+.dropdown-menu{
+  background-color: black;
+}
+.dropdown-item{
+  color: red;
+}
+.dropdown-item:hover{
+  background-color: #2E2E2E;
+}
+.equal{
+  height: 20%;
+}
+.grid {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h3{
+  color: white;
+  text-align: center;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 50%;
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.btn {
+  color: red;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #0B0A0A;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #2E2E2E;
+  color: red;
+}
+
+.btn.active {
+  background-color: red;
+  color: white;
+}
+
+.btn-login, .btn-signup, .btn-confirm, .btn-cancel{
+  margin-left: 5px;
+  background-color: red;
+  color: white;
+}
