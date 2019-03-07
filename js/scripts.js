@@ -41,3 +41,15 @@ $(document).ready(function(){
         $(".col-md-10").fadeOut();
         $(".politics").fadeIn();
       });
+      $(".eight").click(function(){
+    $(".nav-link").removeClass("selected");
+    $(".eight").addClass("selected");
+    $(".col-md-10").fadeOut();
+    $(".stoners").fadeIn();
+  });
+  $(".nine").click(function(){
+    $(".nav-link").removeClass("selected");
+    $(".nine").addClass("selected");
+    $(".col-md-10").fadeOut();
+    $(".motivational").fadeIn();
+  });
