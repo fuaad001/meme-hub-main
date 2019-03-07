@@ -17,3 +17,15 @@ $(document).ready(function(){
      $(".col-md-10").fadeOut();
      $(".childhood").fadeIn();
    });
+   $(".four").click(function(){
+       $(".nav-link").removeClass("selected");
+       $(".four").addClass("selected");
+       $(".col-md-10").fadeOut();
+       $(".nigerian").fadeIn();
+     });
+     $(".five").click(function(){
+       $(".nav-link").removeClass("selected");
+       $(".five").addClass("selected");
+       $(".col-md-10").fadeOut();
+       $(".anime").fadeIn();
+     });
