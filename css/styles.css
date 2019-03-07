@@ -180,3 +180,84 @@ h1, .login-block h2, small{
   background-color: red;
   color: white;
 }
+
+* Styling Videos Page */
+#videos{
+  background-color: #0B0A0A;
+  margin-top: 5%;
+}
+.vid{
+  margin: 0.3%;
+  background-color: #0B0A0A;
+  width:100% ;
+}
+
+
+/*users page styling*/
+.users h3, .users h4, .users li{
+  color: white;
+}
+
+.us{
+  font-family: 'Lora', serif;
+  text-shadow: 2px 2px #922B21;
+  text-align: center;
+}
+.about{
+  font-family: 'Lora', serif;
+  text-shadow: 2px 2px #922B21;
+  float:right;
+  margin-bottom: 90%;
+}
+
+p{
+  font-family: 'Acme', sans-serif;
+font-size: 35px;
+text-align: center;
+color:#ECF0F1;
+}
+
+.title{
+  text-align: center;
+}
+
+.logo{
+  margin-right: -4%;
+}
+
+.btn-comment, .btn-joke, .boxer2{
+  color: white;
+  background-color: red;
+  margin-top: 0;
+}
+
+.boxer2{
+  padding: 1%;
+  border-radius: 5px;
+  margin-right: 2%;
+  font-size: large;
+}
+
+.comments input{
+  width: 85.5%;
+}
+
+.jokes input{
+  width: 90%;
+}
+
+.reviews, .contributions, .hashtags, .meme-plugs{
+  margin-top: 2%;
+}
+
+.reviews h3, .contributions h3{
+  text-decoration: underline;
+}
+
+.boxer{
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 1%;
+  font-size: large;
+}
