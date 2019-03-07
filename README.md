@@ -2,11 +2,11 @@
 MEMEHUB
 The application is meant to entertain people using funny images and videos.It targets the whole demographic:the young and old.Fortunately, it eliminates boredom, stress, exhaustion and breaks monotony. It also updates the users with trending memes in form of pictures and videos. The application has been summarised into different categories that enables the user to navigate easily.  
 ## By
-****Hussein Fuaad
-****Maggie Mwangi
-****Betty-Rose Mburu
-****Anthony Ahere
-****Ian Jacco-jwang
+**Hussein Fuaad**
+**Maggie Mwangi**
+**Betty-Rose Mburu**
+**Anthony Ahere**
+**Ian Jacco-jwang**
 ## Description
 The application is meant to entertain people using funny images and videos.It targets the whole demographic:the young and old.Fortunately, it eliminates boredom, stress, exhaustion and breaks monotony. It also updates the users with trending memes in form of pictures and videos. The application has been summarised into different categories that enables the user to navigate easily.  
 ## BDD
