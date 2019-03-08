@@ -1,3 +1,5 @@
+var userName = "Anonymous";
+
 //User Interface logic
 $(document).ready(function(){
   $(".one").click(function(){
@@ -73,6 +75,29 @@ $(document).ready(function(){
   $(".sign").click(function(){
     $(".login-block").hide();
     $(".signup-block").show();
+  })
+  $(".login-form").submit(function(event){
+    event.preventDefault();
+    userName = $(".email").val();
+    userPassword = $(".password").val();
+    $(".login-block").fadeOut();
+    $(".trends").fadeIn();
+  })
+  $(".comments").submit(function(event){
+    event.preventDefault();
+    var comment = $(".comment").val();
+    $(".username1").addClass("boxer2");
+    $(".username1").append(userName);
+    $(".individual-comments").addClass("boxer");
+    $(".individual-comments").append(comment);
+  })
+  $(".jokes").submit(function(event){
+    event.preventDefault();
+    var joke = $(".joke").val();
+    $(".username2").addClass("boxer2");
+    $(".username2").append(userName);
+    $(".individual-jokes").addClass("boxer");
+    $(".individual-jokes").append(joke);
   })
 });
 

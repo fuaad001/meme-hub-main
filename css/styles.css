@@ -350,3 +350,9 @@ color:#ECF0F1;
   background-color: red;
   color: white;
 }
+
+.btn-comment, .btn-joke, .boxer2{
+  color: white;
+  background-color: red;
+  margin-top: 0;
+}
